@@ -1,5 +1,5 @@
 {
-    "name": "@vixen-front/root",
+    "name": "vixen-front-root",
     "private": false,
     "version": "0.0.0",
     "type": "module",
