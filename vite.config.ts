@@ -22,7 +22,7 @@ export default defineConfig({
                 'react',
                 'react-dom',
                 'react/jsx-runtime',
-                'vixen-front-ui',
+                '@vixen-front/ui',
             ],
             input: Object.fromEntries(
                 glob

@@ -804,6 +804,10 @@
     "@types/babel__core" "^7.20.5"
     react-refresh "^0.14.0"
 
+"@vixen-front/ui@https://github.com/vixen-shell/vixen-front-ui-package.git":
+  version "0.0.1"
+  resolved "https://github.com/vixen-shell/vixen-front-ui-package.git#00b0087945424bdd0b5c3b4aadf0998869edc945"
+
 "@volar/language-core@1.11.1", "@volar/language-core@~1.11.1":
   version "1.11.1"
   resolved "https://registry.yarnpkg.com/@volar/language-core/-/language-core-1.11.1.tgz#ecdf12ea8dc35fb8549e517991abcbf449a5ad4f"
@@ -2188,10 +2192,6 @@ vite@^5.0.8:
     rollup "^4.2.0"
   optionalDependencies:
     fsevents "~2.3.3"
-
-"vixen-front-ui@https://github.com/vixen-shell/vixen-front-ui-package.git":
-  version "0.0.1"
-  resolved "https://github.com/vixen-shell/vixen-front-ui-package.git#fe78123ba0af1c4d2e653e13a3f4a8aab0ec8481"
 
 vue-template-compiler@^2.7.14:
   version "2.7.16"
