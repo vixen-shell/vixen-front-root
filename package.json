@@ -1,7 +1,7 @@
 {
     "name": "vixen-front-root",
     "private": false,
-    "version": "0.0.0",
+    "version": "0.0.1",
     "type": "module",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -17,9 +17,9 @@
         "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
     },
     "peerDependencies": {
-        "@vixen-front/ui": "https://github.com/vixen-shell/vixen-front-ui-package.git",
         "react": "^18.2.0",
-        "react-dom": "^18.2.0"
+        "react-dom": "^18.2.0",
+        "vixen-front-ui": "https://github.com/vixen-shell/vixen-front-ui-package.git"
     },
     "devDependencies": {
         "@types/node": "^20.11.5",

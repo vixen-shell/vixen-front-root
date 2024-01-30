@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import ui from '@vixen-front/ui'
+import ui from 'vixen-front-ui'
 
 export function create(container: HTMLElement) {
     function getUrlFeatureParam() {
