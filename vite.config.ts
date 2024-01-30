@@ -18,7 +18,12 @@ export default defineConfig({
             formats: ['es'],
         },
         rollupOptions: {
-            external: ['react', 'react/jsx-runtime'],
+            external: [
+                'react',
+                'react-dom',
+                'react/jsx-runtime',
+                '@vixen-front/ui',
+            ],
             input: Object.fromEntries(
                 glob
                     .sync('library/**/!(*.d).{ts,tsx}')
@@ -37,7 +42,6 @@ export default defineConfig({
             plugins: [
                 copy({
                     targets: [
-                        { src: 'LICENSE', dest: 'package' },
                         { src: 'package.json', dest: 'package' },
                         { src: 'README.md', dest: 'package' },
                     ],
