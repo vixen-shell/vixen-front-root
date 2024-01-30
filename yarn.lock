@@ -805,8 +805,8 @@
     react-refresh "^0.14.0"
 
 "@vixen-front/ui@https://github.com/vixen-shell/vixen-front-ui-package.git":
-  version "0.0.0"
-  resolved "https://github.com/vixen-shell/vixen-front-ui-package.git#7702ae22b0144e79177cb4c9c8459f887d76bfda"
+  version "0.0.1"
+  resolved "https://github.com/vixen-shell/vixen-front-ui-package.git#ea7ce39ff86fb3bd47f3da2c3a4abc3da4ab2bc2"
 
 "@volar/language-core@1.11.1", "@volar/language-core@~1.11.1":
   version "1.11.1"
@@ -2037,6 +2037,7 @@ string-argv@~0.3.1:
   integrity sha512-aqD2Q0144Z+/RqG52NeHEkZauTAUWJO8c6yTftGJKO3Tja5tUgIfmIl6kExvhtxSDP7fXB6DvzkfMpCd/F3G+Q==
 
 "string-width-cjs@npm:string-width@^4.2.0", string-width@^4.1.0:
+  name string-width-cjs
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
