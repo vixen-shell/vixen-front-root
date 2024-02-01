@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import ui from '@vixen-front/ui'
+import { ErrorFrame } from '@vixen-front/ui'
 
 export function create(container: HTMLElement) {
     function getUrlFeatureParam() {
@@ -18,7 +18,7 @@ export function create(container: HTMLElement) {
         } catch (error) {
             console.error(error)
             return (
-                <ui.ErrorFrame
+                <ErrorFrame
                     message={
                         featureName
                             ? `Feature '${featureName}' not found !`
