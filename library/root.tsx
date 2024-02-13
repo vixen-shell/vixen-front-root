@@ -14,7 +14,13 @@ export function create(container: HTMLElement) {
         const featureName = getUrlFeatureParam()
 
         try {
-            return (await importCallback(featureName)).default as JSX.Element
+            const feature = (await importCallback(featureName)).feature
+
+            if (!feature) {
+                throw new Error(`'${featureName}' does not export feature !`)
+            } else {
+                return feature as JSX.Element
+            }
         } catch (error) {
             console.error(error)
             return (

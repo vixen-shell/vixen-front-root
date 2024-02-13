@@ -1,1 +1,1 @@
-export default <h1>Hello Feature B!</h1>
+export const feature = <h1>Hello Feature B!</h1>
